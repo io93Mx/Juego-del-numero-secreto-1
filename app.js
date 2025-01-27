@@ -22,7 +22,7 @@
 
 //se declara la let, antes del bloque de codigo que la usa o la llama
 let numeroDeIntentosHechos = 1;
-let numeroDeIntentosPermitidos = parseInt(prompt('En cuantos intentos te gustaria adivinar el numero secreto?\nSe recomiendan 4 intentos minimo para un rango del 1 al 15'));
+let numeroDeIntentosPermitidos = parseInt(prompt('En cuantos intentos te gustaria adivinar el numero secreto?\nSe recomiendan 2 intentos para un rango del 1 al 5'));
 let rango = parseInt(prompt('Adivina un numero entre 1 y ?'));
 
 //si lo dejamos asi, al llamar a la funcion condiciones iniciales, aparecen 2 numeros secretos, por lo que hay que declararla en condiciones iniciales
